@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Тест к задаче №1",
+      "setup": "",
+      "run": "ruby 1.rb",
+      "input": "",
+      "output": "232",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Тест к задаче №2",
+      "setup": "",
+      "run": "ruby 2.rb",
+      "input": "bgvyzdsv",
+      "output": "254575",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Тест к задаче №3",
+      "setup": "",
+      "run": "ruby 3.rb",
+      "input": "",
+      "output": "43074",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Тест к задаче №4",
+      "setup": "",
+      "run": "ruby 4.rb",
+      "input": "",
+      "output": "1598415",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
