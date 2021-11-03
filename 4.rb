@@ -16,4 +16,9 @@
 #
 ## Решение:
 
-
+paper = 0
+File.open("data/4.txt", 'r').each_line do |line|
+  l, h, w = line.split('x').map(&:to_i).sort
+  paper += 2*l*w + 2*w*h + 2*h*l + l*h
+end
+puts paper
