@@ -15,6 +15,20 @@
 #
 #
 ## Решение:
+current_floor = 0
+array = ''
+File.open("data/1.txt", 'r') do |file|
+  array<<file.read.to_s
+end
+array.each_char do |symbol|
+  if symbol == '('
+    current_floor += 1
+  elsif symbol == ')'
+    current_floor -= 1
+  end
+end
+
+puts current_floor
 
 
 
